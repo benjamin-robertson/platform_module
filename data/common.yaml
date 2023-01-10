@@ -1,1 +1,5 @@
---- {}
+---
+platform_module::sudo: 
+  platform_group: 
+    somegood: 'rules are here'
+    frommodule: 'platform module'

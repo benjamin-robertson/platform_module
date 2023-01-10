@@ -4,6 +4,8 @@
 #
 # @example
 #   include platform_module
-class platform_module {
-  notify { 'Platform module in use':}
+class platform_module (
+  Hash $sudo,
+) {
+  notify { "Platform module in use sudo rules are ${sudo}":}
 }
