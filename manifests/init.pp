@@ -5,4 +5,5 @@
 # @example
 #   include platform_module
 class platform_module {
+  notify { 'Platform module in use':}
 }
